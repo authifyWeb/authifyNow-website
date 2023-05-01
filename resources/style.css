@@ -46,6 +46,13 @@
           font-weight: 200;
       }
   
+      .brand_arch{
+        color:goldenrod;
+        font-size:12px; 
+        position:absolute; 
+        left:90px; 
+        top:37px;  
+      }
       
       
   
