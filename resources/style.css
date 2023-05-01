@@ -162,31 +162,31 @@
     color: #FFFFFF;
   }
   
-  /****  Footer Menu Begins Here ****/
-  
-  
-  
-  .footer a, .footer p{
-      text-decoration: none;
-        color:rgb(151, 149, 250);
-      letter-spacing: 3px;
-      font-size: 14px;
-      font-weight: 200;
-      } 	
-      
-  .footer{
-      text-align: center;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      
-      
-  }	
-  
-  #FooterLinks{
-      font-family: 'Montserrat', sans-serif;
-  }
+/****  Footer Menu Begins Here ****/
+
+
+
+.footer a, .footer p{
+	text-decoration: none;
+  color:rgb(151, 149, 250);
+	letter-spacing: 3px;
+	font-size: 12px;
+	font-weight: 200;
+	} 	
+	
+.footer{
+	text-align: center;
+	position: absolute;
+	left: 0;
+  z-index:1;
+	right: 0;
+	bottom:1vh;
+	
+}	
+
+#FooterLinks{
+	font-family: 'Montserrat', sans-serif;
+}
   
   @media (min-width: 320px) and (max-width: 999px)  {
    .footer  {
