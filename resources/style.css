@@ -107,6 +107,7 @@
     content: '';
     top: 8px;
   }
+  
   .menu__box {
     display: block;
     position: absolute;
@@ -127,6 +128,7 @@
     .menu__box li{
          list-style: none;
     }
+    
     
       
   .menu__item {
@@ -182,8 +184,9 @@
 	} 	
 	
 .footer{
+  padding-top:5px;
 	text-align: center;
-	position: absolute;
+	
 	left: 0;
   z-index:1;
 	right: 0;
@@ -243,15 +246,20 @@
 		  text-decoration:none;
 		  color:#a2fb15;
 	}
+  .img{
+    width:1000px;
+    min-height:330px;
+  }
 	.slider p{
 		z-index:1;
 		padding-bottom:5px;
 		}
    img-comparison-slider {
    margin-top:5px;
+   margin-left:30px;
    z-index:1;
-   height:350px;
-   width:80%;
+   
+   width:70%;
    
     --divider-width: 5px;
     --divider-color: maroon;
